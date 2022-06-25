@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: gray;
+            margin: 0px;
+        }
+        header {
+            padding: 10px;
+            margin: 10px;
+            background-color: white;
+        }
+        nav {
+            background-color: rgb(181, 197, 197);
+            padding: 5px;
+            box-shadow: 10px 10px 10px black;
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main { 
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 0px 20px;
+        }
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        aside {
+            background-color: lightblue;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p>Esportes Politica e Tecnologia</p>
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Noticias Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi nobis hic impedit itaque odio! Animi neque maxime vero tenetur dicta autem rem, ratione quidem voluptatum! Praesentium velit odit impedit molestiae!</p>
+                <aside>
+                    <p>Escrito pelo autor</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Raphael</p>
+    </footer>
+    
+</body>
+</html>
