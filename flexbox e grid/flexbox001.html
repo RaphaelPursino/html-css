@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo Flexbox</title>
+    <style>
+        
+        body {
+            display: grid;
+            grid-template-areas: "h h h h"
+                                "a m m m"
+                                "f f f f"                    
+            ;
+            gap: 10px;
+            
+        }
+
+        .h, .a, .m, .f {
+            background-color: rgb(83, 83, 253);
+            border: 1px solid black;
+        }
+
+        .h {
+            grid-area: h;
+            background-color: aqua;
+        }
+
+        .a {
+            grid-area: a;
+        }
+
+        .m {
+            grid-area: m;
+        }
+
+        .f {
+            grid-area: f;
+        }
+    </style>
+</head>
+<body>
+    <header class="h">Header
+        <p>Lorem ipsum, dolor sit amet</p> 
+    </header>
+
+    <aside class="a">Aside
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo saepe libero ullam eius molestias alias accusamus laudantium eveniet ducimus autem asperiores, error deleniti, soluta aut cum pariatur vel iste ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium laudantium ad qui nam repellendus, cum, quaerat pariatur soluta corrupti perferendis vel nobis, animi possimus? Delectus iure velit ipsum qui voluptates?</p>
+    </aside>
+
+    <main class="m">Main
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis officiis quasi dicta rerum cum ex unde exercitationem, maiores omnis maxime inventore temporibus eos praesentium, atque velit dolorum impedit iure quas! Lorem ipsum dolor sit amet consectetur adipisicing elit. At eum velit nihil sapiente est ad blanditiis dignissimos eligendi totam aliquam quo dolorum natus autem doloribus ratione, enim cum dicta iusto. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas itaque, quo vero nulla, ut maiores recusandae, officia aperiam soluta sequi quis pariatur cumque ipsum quibusdam numquam cum deleniti repellendus? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat ab aliquid aut iusto, repudiandae facere totam voluptatem eos, a, dolor rem? Voluptates, similique reprehenderit? Aliquam ex dignissimos facere nisi mollitia. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis officiis quasi dicta rerum cum ex unde exercitationem, maiores omnis maxime inventore temporibus eos praesentium, atque velit dolorum impedit iure quas! Lorem ipsum dolor sit amet consectetur adipisicing elit. At eum velit nihil sapiente est ad blanditiis dignissimos eligendi totam aliquam quo dolorum natus autem doloribus ratione, enim cum dicta iusto. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas itaque, quo vero nulla, ut maiores recusandae, officia aperiam soluta sequi quis pariatur cumque ipsum quibusdam numquam cum deleniti repellendus? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat ab aliquid aut iusto, repudiandae facere totam voluptatem eos, a, dolor rem? Voluptates, similique reprehenderit? Aliquam ex dignissimos facere nisi mollitia.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis officiis quasi dicta rerum cum ex unde exercitationem, maiores omnis maxime inventore temporibus eos praesentium, atque velit dolorum impedit iure quas! Lorem ipsum dolor sit amet consectetur adipisicing elit. At eum velit nihil sapiente est ad blanditiis dignissimos eligendi totam aliquam quo dolorum natus autem doloribus ratione, enim cum dicta iusto. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas itaque, quo vero nulla, ut maiores recusandae, officia aperiam soluta sequi quis pariatur cumque ipsum quibusdam numquam cum deleniti repellendus? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat ab aliquid aut iusto, repudiandae facere totam voluptatem eos, a, dolor rem? Voluptates, similique reprehenderit? Aliquam ex dignissimos facere nisi mollitia.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis officiis quasi dicta rerum cum ex unde exercitationem, maiores omnis maxime inventore temporibus eos praesentium, atque velit dolorum impedit iure quas! Lorem ipsum dolor sit amet consectetur adipisicing elit. At eum velit nihil sapiente est ad blanditiis dignissimos eligendi totam aliquam quo dolorum natus autem doloribus ratione, enim cum dicta iusto. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas itaque, quo vero nulla, ut maiores recusandae, officia aperiam soluta sequi quis pariatur cumque ipsum quibusdam numquam cum deleniti repellendus? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat ab aliquid aut iusto, repudiandae facere totam voluptatem eos, a, dolor rem? Voluptates, similique reprehenderit? Aliquam ex dignissimos facere nisi mollitia.
+    </main>
+
+    <footer class="f">Footer
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum debitis laboriosam voluptatibus dolorum id facilis odit dolores nulla labore modi natus aut, doloribus amet magni distinctio placeat velit ullam quibusdam! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi maiores earum similique quasi recusandae doloremque molestiae, vitae laboriosam veritatis! Odio repellat eius autem qui quidem quas doloribus voluptatem incidunt quasi?
+    </footer>
+</body>
+</html>
