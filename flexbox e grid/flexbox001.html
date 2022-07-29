@@ -11,38 +11,49 @@
             display: grid;
             grid-template-areas: "h h h h"
                                 "a m m m"
-                                "f f f f"                    
+                                "f f f d"                    
             ;
-            gap: 10px;
+            gap: 20px;
             
         }
 
-        .h, .a, .m, .f {
+        .h, .a, .m, .f, .d {
             background-color: rgb(83, 83, 253);
             border: 1px solid black;
+            
         }
 
         .h {
             grid-area: h;
             background-color: aqua;
+            text-align: center;
+            font-size: 3em;
+            padding: 20px;
         }
 
         .a {
             grid-area: a;
+            margin-left: 80px;
         }
 
         .m {
             grid-area: m;
+            background-color: white;
+            padding: 20px;
+            margin-right: 80px;
         }
 
         .f {
             grid-area: f;
         }
+        .d {
+            grid-area: d;
+        }
     </style>
 </head>
 <body>
-    <header class="h">Header
-        <p>Lorem ipsum, dolor sit amet</p> 
+    <header class="h">
+        Header 
     </header>
 
     <aside class="a">Aside
@@ -56,5 +67,8 @@
     <footer class="f">Footer
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum debitis laboriosam voluptatibus dolorum id facilis odit dolores nulla labore modi natus aut, doloribus amet magni distinctio placeat velit ullam quibusdam! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi maiores earum similique quasi recusandae doloremque molestiae, vitae laboriosam veritatis! Odio repellat eius autem qui quidem quas doloribus voluptatem incidunt quasi?
     </footer>
+    <div class="d">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus recusandae quae velit fugit quod, aut accusantium iusto esse reiciendis libero quo provident nobis dicta perferendis cumque officia, dolore laborum nisi.</p>
+    </div>
 </body>
 </html>
