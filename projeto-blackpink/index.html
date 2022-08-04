@@ -12,6 +12,10 @@
             box-sizing: border-box;
         }
 
+        body {
+            background-color: lightpink;
+        }
+
         header {
             height: 100vh;
             width: 100%;
@@ -28,11 +32,8 @@
             align-items: center;
         }
 
-        nav > h2 {
-            color: rgb(219, 4, 183);
-            font-size: 3em;
-            text-decoration: underline;
-            text-shadow: 2px 2px 10px 10px black;
+        nav > img {
+            height: 50px;
         }
 
         nav > ul > li {
@@ -70,13 +71,63 @@
             background-size: cover;
         }
 
+        div#jisoo {
+            display: flex;
+            align-items: center;
+            padding: 100px;
+            gap: 100px;
+        }
+
+        div#jisoo h2 {
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 30px;
+        }
+
+        div#lisa {
+            display: flex;
+            align-items: center;
+            padding: 100px;
+            gap: 100px;
+        }
+
+        div#lisa h2 {
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 30px;
+        }
+
+        footer {
+            background-color: lightseagreen;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        footer > div {
+            margin: 30px;
+        }
+
+        footer > div#social {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        footer > div#social > a {
+            text-decoration: none;
+            margin-bottom: 20px;
+        }
+        
+
+
 
     </style>
 </head>
 <body>
     <header>
         <nav>
-            <h2>Blackpink</h2>
+            <img src="imagens/logo.png" alt="Logo">
             <ul>
                 <li><a href="#">Menu1</a></li>
                 <li><a href="#">Menu2</a></li>
@@ -108,13 +159,64 @@
             </div>
 
             <div>
-                <img src="imagens/blackpink header.jpg" alt="imagem">
+                <img src="imagens/blackpink2.jpg" alt="imagem">
+            </div>
+
+            <div><hr size="10"></div>
+        </section>
+
+        <section>
+            <div id="jisoo">
+                <img src="imagens/jisoo.jpg" alt="Jisoo">
+                <div>
+                    <h2>Jisoo</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At cum, eaque doloribus, sunt officiis expedita commodi deserunt nobis nulla, error vel? Veritatis libero, voluptatibus quaerat quia qui distinctio magnam omnis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur voluptatem ex ipsam, excepturi amet possimus maxime itaque sapiente cumque voluptatum ab soluta dolor consequatur distinctio. Deserunt nesciunt voluptatem ducimus alias.</p>
+                </div>
+            </div>
+
+            <hr size="10">
+
+            <div id="lisa">
+                <div>
+                    <h2>Lisa</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At cum, eaque doloribus, sunt officiis expedita commodi deserunt nobis nulla, error vel? Veritatis libero, voluptatibus quaerat quia qui distinctio magnam omnis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur voluptatem ex ipsam, excepturi amet possimus maxime itaque sapiente cumque voluptatum ab soluta dolor consequatur distinctio. Deserunt nesciunt voluptatem ducimus alias.</p>
+                </div>
+                <img src="imagens/lisa.jpg" alt="Lisa">
+            </div>
+
+            <hr size="10">
+
+            <div id="jisoo">
+                <img src="imagens/jisoo.jpg" alt="Jisoo">
+                <div>
+                    <h2>Jisoo</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At cum, eaque doloribus, sunt officiis expedita commodi deserunt nobis nulla, error vel? Veritatis libero, voluptatibus quaerat quia qui distinctio magnam omnis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur voluptatem ex ipsam, excepturi amet possimus maxime itaque sapiente cumque voluptatum ab soluta dolor consequatur distinctio. Deserunt nesciunt voluptatem ducimus alias.</p>
+                </div>
+            </div>
+
+            <hr size="10">
+
+            <div id="lisa">
+                <div>
+                    <h2>Lisa</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At cum, eaque doloribus, sunt officiis expedita commodi deserunt nobis nulla, error vel? Veritatis libero, voluptatibus quaerat quia qui distinctio magnam omnis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur voluptatem ex ipsam, excepturi amet possimus maxime itaque sapiente cumque voluptatum ab soluta dolor consequatur distinctio. Deserunt nesciunt voluptatem ducimus alias.</p>
+                </div>
+                <img src="imagens/lisa.jpg" alt="Lisa">
             </div>
         </section>
     </main>
 
     <footer>
+        <div>
+            <h2>Blackpink</h2>
+            <p>Página do BrBlinksFans</p>
+        </div>
 
+        <div id="social">
+            <a href="#">Insta</a>
+            <a href="#">Face</a>
+            <a href="#">Twitter</a>
+        </div>
     </footer>
 </body>
 </html>
