@@ -55,6 +55,7 @@ section > div#lisa > img {
     border: 1px solid black;
     display: block;
     margin: auto;
+    width: 100%;
 }
 
 section > div#lisa > div > h2, p {
