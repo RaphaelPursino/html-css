@@ -6,6 +6,11 @@
         padding: 0;
     }
 
+    div#carouselExampleCaptions {
+        width: 100%;
+        margin: auto;
+    }
+
     header {
         height: 90vh;
         width: 100%;
