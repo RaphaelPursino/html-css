@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+/*Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grandes telas: acima de 1200px*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightpink;
+}
+
+header {
+    height: 90vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.5)), url(../imagens/blackpink\ header.jpg);
+    background-size: cover;
+}
+
+nav > img {
+    height: 50px;
+    margin: 30px;
+}
+
+main > section > div {
+    padding-top: 100px;
+}
+
+div#historia > h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+div#historia > p {
+    text-align: center;
+    font-size: 2em;
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+}
+
+section > div > img {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+div#carouselExampleCaptions {
+    width: 80%;
+    margin: auto;
+}
+
+div#jisoo {
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    gap: 100px;
+}
+
+div#jisoo img { 
+    border: 2px solid black;
+}
+
+div#jisoo h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+div#lisa {
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    gap: 100px;
+}
+
+div#lisa h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer > div {
+    margin: 30px;
+}
+
+footer > div > h2 {
+    color: white;
+}
+
+footer > div > p {
+    color: white;
+}
+
+footer > div#social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer > div#social > a {
+    text-decoration: none;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+}
+
+footer > div#social > a img {
+    width: 20%;
+}
