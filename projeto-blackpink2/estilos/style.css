@@ -43,7 +43,7 @@ section > div#jisoo > img {
     border: 1px solid black;
     display: block;
     margin: auto;
-    width: 100%;
+    width: 70vw;
 }
 
 section > div#jisoo > div > h2, p {
@@ -55,7 +55,7 @@ section > div#lisa > img {
     border: 1px solid black;
     display: block;
     margin: auto;
-    width: 100%;
+    width: 70vw;
 }
 
 section > div#lisa > div > h2, p {
