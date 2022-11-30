@@ -84,6 +84,7 @@ footer > div#social {
 footer > div#social > a {
     text-decoration: none;
     color: white;
+    font-size: .7em;
 }
 
 footer > div#social > a > img {
