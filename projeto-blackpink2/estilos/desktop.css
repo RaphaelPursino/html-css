@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 992px) {
+    header {
+        height: 95vh;
+        width: 100%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.5)), url(../imagens/blackpink\ header.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    header > nav > img {
+        height: 50px;
+        margin: 20px;
+    }
+
+    body {
+        background-color: lightpink;
+    }
+
+    main > section > div#historia {
+        text-align: center;
+        margin: 50px;
+    }
+
+    main > section > div#container {
+        display: flex;
+        justify-content: space-around;
+        margin: 50px;
+    }
+
+    section > div#jisoo > img {
+        border: 1px solid black;
+        display: block;
+        margin: auto;
+        width: 50vw;
+    }
+
+    section > div#jisoo > div#jisootexto {
+        width: 800px;
+        margin: auto;
+    }
+
+    section > div#jisoo > div > p {
+        font-size: 1.2em;
+    }
+
+    section > div#jisoo > div > h2, p {
+        margin: 20px;
+        text-align: center;
+    }
+
+    section > div#lisa > img {
+        border: 1px solid black;
+        display: block;
+        margin: auto;
+        width: 50vw;
+    }
+
+    section > div#lisa > div#lisatexto {
+        width: 800px;
+        margin: auto;
+    }
+
+    section > div#lisa > div > p {
+        font-size: 1.2em;
+    }
+
+    section > div#lisa > div > h2, p {
+        text-align: center;
+        margin: 10px;
+        margin-bottom: 30px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-around;
+        background-color: black;
+    }
+
+    footer > div {
+        margin-top: 25px;
+        text-align: center;
+        color: white;
+        
+    }
+
+    footer > div#social {
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+    }
+
+    footer > div#social > a {
+        text-decoration: none;
+        color: white;
+        font-size: .7em;
+    }
+
+    footer > div#social > a > img {
+        width: 15%;
+    }
+}
